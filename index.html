@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./JosefaMk.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Links Bio - Josefa Mendes Mk</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Josefa Mendes – Consultora Oficial Mary Kay | Fale no WhatsApp ou Instagram</title>
+  <meta name="description" content="Conheça Josefa Mendes, consultora oficial Mary Kay. Fale comigo via WhatsApp ou Instagram e descubra produtos de beleza exclusivos.">
+  <meta name="keywords" content="Mary Kay, Josefa Mendes, consultora Mary Kay, cosméticos, maquiagem, cuidados com a pele">
+  <meta name="author" content="Josefa Mendes">
+  <meta property="og:title" content="Josefa Mendes – Consultora Mary Kay">
+  <meta property="og:description" content="Fale comigo via WhatsApp ou Instagram e descubra produtos de beleza Mary Kay.">
+  <meta property="og:image" content="./josefaBG.jpeg">
+  <meta property="og:type" content="website">
+
+  <link rel="shortcut icon" href="./JosefaMk.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="container">
     <section>
-        <header>
-            <img src="./JosefaMk.jpg" alt="logo">
-            <h3>@JosefaMk</h3>
-            <p>Consultora Mary Kay</p>
-        </header>
-        <main>
-            <a href="https://wa.me/92982470712" target="_blank">WhatsApp</a>
-            <a href="https://www.instagram.com/josefamendesmk/">Instagram</a>
-        </main>
+      <header>
+        <img src="./josefaBG.jpeg" alt="Josefa Mendes sorrindo em ambiente externo">
+        <h1>@JosefaMk</h1>
+        <h2>Consultora Mary Kay</h2>
+        <p class="intro">
+          Olá! Sou a Josefa, sua consultora Mary Kay. Escolha um canal para falar comigo:
+        </p>
+      </header>
+
+      <main>
+        <!-- Botões mantidos conforme solicitado -->
+        <a href="https://wa.me/5592982470712?text=Vim%20pelo%20link%20da%20bio%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20Mary%20Kay"
+          target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.instagram.com/josefamendesmk/" target="_blank" rel="noopener">Instagram</a>
+      </main>
     </section>
-    <p class="footer">Copyright 2023 - <a class="dev" href="https://github.com/fabiobrasileiroo" target="_blank" rel="noopener noreferrer">Dev FabioBrasileiro</a></p>
+
+    <footer>
+      <p>&copy; <span id="year"></span> <a class="dev" href="https://github.com/fabiobrasileiroo" target="_blank" rel="noopener noreferrer">Dev FabioBrasileiro</a></p>
+    </footer>
+  </div>
+
+  <script>
+    // Atualiza o ano automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
